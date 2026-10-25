@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Revisión de seguridad con Claude Code antes de cada commit
+
+DIFF=$(git diff --cached --unified=5)
+[ -z "$DIFF" ] && exit 0
+
+REPORT=$(printf '%s' "$DIFF" | claude -p \
+  "Revisa este diff en staged según tus instrucciones." \
+  --agent security-reviewer \
+  --allowedTools "Read,Grep,Glob")
+
+echo "$REPORT"
+
+if printf '%s' "$REPORT" | tail -n 1 | grep -q "VERDICT: BLOCK"; then
+  echo "❌ Commit bloqueado por security-reviewer. Revisa el reporte."
+  exit 1
+fi
