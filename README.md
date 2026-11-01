@@ -12,6 +12,7 @@ Este repositorio reúne el código que acompaña a los videos del canal de Boric
 | # | Título | YouTube | Carpeta | Artículo |
 |---|---|---|---|---|
 | 01 | Crea un agente de IA que revise tu código ANTES de cada commit | [Ver video](https://youtu.be/Cmw1km8dR5U) | [`videos/01-agente-seguridad`](videos/01-agente-seguridad) | [Leer en el blog](https://blog.boricuacoder.dev/es/blog/first-ai-agent-security-reviewer-es/) |
+| 02 | Cómo crear una skill para Claude Code | [Ver video](https://youtu.be/jkUsPg7dUhc) | [`videos/02-crear-skills`](videos/02-crear-skills) | [Leer en el blog](https://blog.boricuacoder.dev/es/blog/crear-skills-es/) |
 
 ### Cómo usar las carpetas
 
@@ -38,6 +39,7 @@ This repository holds the code that goes with the BoricuaCoder YouTube videos. E
 | # | Title | YouTube | Folder | Article |
 |---|---|---|---|---|
 | 01 | Crea un agente de IA que revise tu código ANTES de cada commit (Spanish: "Build an AI agent that reviews your code BEFORE every commit") | [Watch](https://youtu.be/Cmw1km8dR5U) | [`videos/01-agente-seguridad`](videos/01-agente-seguridad) | [Read on the blog](https://blog.boricuacoder.dev/blog/first-ai-agent-security-reviewer-en/) |
+| 02 | Cómo crear una skill para Claude Code (Spanish: "How to create a Claude Code skill") | [Watch](https://youtu.be/jkUsPg7dUhc) | [`videos/02-crear-skills`](videos/02-crear-skills) | [Read on the blog](https://blog.boricuacoder.dev/blog/crear-skills-en/) |
 
 ### How to use the folders
 
